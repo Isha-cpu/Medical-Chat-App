@@ -138,7 +138,9 @@ const Auth = () => {
                               : "Don't have an account?"
                             }
                             <span onClick={switchMode}>
-                                { isSignup ? 'Sign In' : 'Sign Up' }
+                                <u>
+                                    { isSignup ? 'Sign In' : 'Sign Up' }
+                                </u>
                             </span>
                         </p>
                     </div>
